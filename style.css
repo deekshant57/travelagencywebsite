@@ -1,0 +1,111 @@
+* {
+  font-family: "Merriweather", serif;
+}
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns*/
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: 400;
+}
+.marketing .col-lg-4 p {
+  margin-right: 0.75rem;
+  margin-left: 0.75rem;
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: rgb(43, 119, 240);
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 20%;
+  font-size: 1.2rem;
+}
+
+#myBtn:hover {
+  background-color: rgb(31, 102, 209);
+}
+html {
+  scroll-behavior: smooth;
+}
+
+/* Image Show Case */
+.showcase .showcase-text {
+  padding: 2rem;
+}
+
+.showcase-img {
+  min-height: 60%;
+  background-size: cover;
+}
+
+@media (min-width: 768px) {
+  .showcase .showcase-text {
+    padding: 7rem;
+  }
+}
+
+/***** Footer *****/
+
+.footer-top {
+  padding: 0;
+  text-align: left;
+}
+.footer-top h6 {
+  padding-bottom: 10px;
+  color: rgb(31, 102, 209);
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.footer-contact p {
+  word-wrap: break-word;
+}
+.footer-contact i {
+  padding-right: 0.8rem;
+  font-size: 1rem;
+  color: #ddd;
+}
+
+.footer-contact p a:hover,
+.footer-contact p a:focus {
+  border-bottom: 1px #856dc0;
+}
+
+.footer-links a {
+  color: rgb(34, 33, 33);
+}
+.footer-links a:hover,
+.footer-links a:focus {
+  color: rgb(43, 119, 240);
+  margin-left: 3px;
+  text-decoration: none;
+}
+
+.footer-bottom {
+  padding: 0 0 20px 0;
+}
+
+.footer-social a {
+  margin: 0 10px;
+}
+.footer-social a:hover,
+.footer-social a:focus {
+  color: #0d24f1;
+}
+.footer-social i {
+  font-size: 24px;
+  vertical-align: middle;
+}
